@@ -27,7 +27,7 @@ describe 'form page' do
     visit new_student_path
 
     fill_in 'first_name', with: "Margaery"
-    fill_in 'lat_name', with: "Tyrell"
+    fill_in 'last_name', with: "Tyrell"
 
     click_on "Submit Student"
 
